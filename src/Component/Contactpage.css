@@ -1,0 +1,11 @@
+.main{
+  margin-left:30pc;
+  margin-right: 30pc;
+}
+.btn-primary{
+  background-color: red;
+  margin-top: 10px;
+  padding: 10px;
+  width: 75px;
+  height: 30px;
+}
