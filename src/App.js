@@ -4,6 +4,7 @@ import './App.css';
 import Headers from './Component/Headers';
 import Contactpage from './Component/Contactpage';
 import Contactlistpage from './Component/Contactlistpage';
+import Page from './Component/Page';
 
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
       <Headers />
       < Contactpage addContactHandler={addContactHandler} />
       <Contactlistpage contacts={contacts} getContactId={removeContactHandler} />
-
+      <Page />
     </div>
   );
 }
